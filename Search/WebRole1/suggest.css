@@ -1,0 +1,8 @@
+﻿/*
+    this file is kinda left over from PA2, but it does a little styling for suggest.js
+*/
+.searchSug, .searchRes {
+    list-style-type: none;
+    list-style-image:url();
+
+}

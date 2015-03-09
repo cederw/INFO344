@@ -1,0 +1,66 @@
+﻿<!--Walter Ceder INFO 344 -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>The Best Dashboard Ever!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container"><h1>Welcome to the Dashboard</h1></div>
+    <div class="container">
+        <h3>State of the crawler</h3>
+        <p id="state"></p>
+        <button class="btn btn-default" id="startBtn" type="submit" onclick="start()">Start</button>
+        <button class="btn btn-default" id="stopBtn" type="submit" onclick="stop()">Stop</button>
+    </div>
+    <div class="container">
+        <h3>Machine counters</h3>
+        <p>Avalible Megabytes of RAM:</p><p id="mbytes"></p>
+        <p>CPU Usage:</p><p id="cpu"></p>
+    </div>
+    <div class="container">
+        <h3>Number of URLs crawled</h3>
+        <p id="crawled"></p>
+    </div>
+    <div class="container">
+        <h3>Last 10 URLs</h3>
+        <div id="lten"></div>
+    </div>
+    <div class="container">
+        <h3>Size of the URL queue</h3>
+        <p id="que"></p>
+    </div>
+    <div class="container">
+        <h3>Size of the index</h3>
+        <p id="indexS"></p>
+    </div>
+    <div class="container">
+    <h3>Number of titles in trie</h3>
+    <p id="tNum"></p>
+    </div>
+    <div class="container">
+        <h3>Last title shown</h3>
+        <p id="tLast"></p>
+    </div>
+    <div class="container">
+        <h3>Retrieve Data</h3>
+
+        <div class="form-group">
+            <label for="urlInput">URL to retrieve data for</label>
+            <input type="text" class="form-control" id="urlInput" placeholder="Enter URL">
+        </div>
+
+
+        <button type="submit" id="rBtn" class="btn btn-default" onclick="ret()">Submit</button>
+        <p>Page Title:</p>
+        <p id="urlre">Nothing searched yet</p>
+
+    </div>
+    <div class="container"><h3>Errors</h3><div id="errors"></div></div>
+
+
+
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="crawl.js"></script>
+</body>
+</html>

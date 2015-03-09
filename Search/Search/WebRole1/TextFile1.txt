@@ -1,0 +1,5 @@
+﻿<span id="a">Classified Top Secret</span><br/><!--lets delay the speed rfjiklsdflskdjfgsdklgjfsdlkgjfdsklgjdfklgjdflkgjdfklgjfdg,.dlkfgjoskidfjskdfjhsdlkjfskdlfjskdjfskdlfjsl-->
+<p>This is a powerful search engine that accesses only the most private of data, search at your ownn risk</p><br /><!--lets delay the speed rfjiklsdflskdjfgsdklgjfsdlkgjfdsklgjdfklgjdflkgjdfklgjfdg,.dlkfgjoskidfjskdfjhsdlkjfskdlfjskdjfskdlfjsl-->
+<p>P.S. go to the <a href="admin.html">Dashboard</a></p><br /><!--lets delay the speed rfjiklsdflskdjfgsdklgjfsdlkgjfdsklgjdfklgjdflkgjdfklgjfdg,.dlkfgjoskidfjskdfjhsdlkjfskdlfjskdjfskdlfjsl-->
+<span id="a">JamesB@007</span>:<span id="b">~</span><span id="c">$</span> search <input type="text" name="search" id="sInput" > <input type="submit" value="Submit" id="submit"><br /><br /><br /><br /><div id="resu"></div>
+
